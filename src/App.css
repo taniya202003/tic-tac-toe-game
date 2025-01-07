@@ -1,0 +1,19 @@
+ .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+  }

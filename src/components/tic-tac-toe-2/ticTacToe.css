@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: 1rem;
+  }
+  
+  .grid-row {
+    display: flex;
+    gap: 7px;
+  }
+
+  table td {
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cell {
+    background: white;
+    border-radius: 6px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid #ffffff;
+    background-color:rgb(188, 219, 230);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-X {
+    background-color: #e93737d7;
+    color: #ffffff;
+  }
+  
+  .cell-O {
+    background-color: #2deb2dc0;
+    color: #ffffff;
+  }
+  
+  .winner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    display: none;
+  }
+  
+  .winner.show {
+    display: block;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .player-div{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .player{
+    border: 1px solid;
+    color: white;
+    border-radius: 6px;
+    padding: 2px 7px;
+    font-weight: 500;
+  }
+  .one{
+    border: 2px solid #e41818d7;
+    background-color:#e93737d7 ;
+  }
+  .two{
+    border: 2px solid #11dd11c0 ;
+    background-color:#2deb2dc0 ;
+  }
+
+  .playersScore{
+    display: flex;
+    gap: 30px;
+  }
